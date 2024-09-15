@@ -10,6 +10,8 @@ The time taken to discharge is controlled by the pot (or dial) on the paddle.  I
 ## Current Status
 It is experimental code and unfortunately suffers from jitter in reading pot values.    Its stable enough to use the arduino's  Serial Monitor and Window's setup usb game controller to test its function.
 
+Download: https://github.com/dekkit/Atari2600_Paddles_to_USB/blob/main/Atari2600_Paddles_to_USB.ino
+
 ## Further Information
 It has two modes:
 - GAMEPAD
@@ -21,7 +23,7 @@ I've documented my understanding within the .ino
 
 
 ## Alternatives
-If you want to try an alternative see the following link... (note: not my project)
+If you want to try an alternative that may work better for your needs, see the following link... (note: not my project)
 
 https://github.com/MiSTer-devel/Retro-Controllers-USB-MiSTer/tree/master/PaddleTwoControllersUSB
 
