@@ -2,7 +2,7 @@
 Arduino Micro code to convert a set of DB9 Paddles to USB
 
 ## Introduction
-This is a project convert an a set of DB9 paddles to usb using an Arduino Micro.    The goal is to convert both Atari 2600 and C64 style paddles without making any further modification to the paddles themselves.
+This is a project to convert an a set of DB9 paddles to usb using an Arduino Micro.    The goal is to convert both Atari 2600 and C64 style paddles without making any further modification to the paddles themselves.
 
 Using a charging capacitor approach as decribed on: https://hackaday.io/project/170908-control-freak   (see link also for wiring diagrams), it works by charging a capacitor then timing how long it takes to discharge.
 The time taken to discharge is controlled by the pot (or dial) on the paddle.  It then converts this value into a gamepad analog stick value to mimic a gamepad analog stick values being moved left and right.
